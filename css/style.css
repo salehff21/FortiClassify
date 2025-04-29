@@ -1,0 +1,138 @@
+/* تنسيق الجسم العام */
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    height: auto;
+}
+
+/* تنسيق العنوان الرئيسي */
+h1 {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 3em;
+    color: #2d3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* تنسيق رأس الصفحة */
+header {
+    background-color: #2d3e50;
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الشعار */
+header .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* تنسيق القوائم */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+
+/* تنسيق المحتوى */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* تحسين الفوتر */
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الأزرار */
+button, input[type="submit"] {
+    background-color: #2d3e50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #1c2c3f;
+    transform: scale(1.05);
+}
+
+/* تحسين حقول الإدخال */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="file"] {
+    background-color: white;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* تحسين مؤشر قوة كلمة السر */
+#password-strength {
+    width: 100px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: width 0.3s, background-color 0.3s;
+}
+
+.weak {
+    background-color: red;
+    width: 33px;
+}
+
+.medium {
+    background-color: orange;
+    width: 66px;
+}
+
+.strong {
+    background-color: green;
+    width: 100px;
+}
