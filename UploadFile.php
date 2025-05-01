@@ -128,7 +128,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["file"])) {
         <img src="FortiClassify.jpg" alt="logo" class="logo">
         <nav>
             <ul>
-                <li><a href="home.php">Home</a></li>
+                <li><a href="home.html">Home</a></li>
             </ul>
         </nav>
     </header>

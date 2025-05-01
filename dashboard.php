@@ -25,6 +25,7 @@ if (!isset($_SESSION['user_id'])) {
         <img src="FortiClassify.jpg" alt="logo" class="logo">
         <nav>
             <ul>
+            <li><a href="home.html">home</a></li>
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="UploadFile.php">Upload File</a></li>
                 <li><a href="About Us.html">About Us</a></li>
